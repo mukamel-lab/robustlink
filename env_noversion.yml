@@ -1,0 +1,30 @@
+name: env_robustlink
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fbpca
+  - h5py
+  - hdf5
+  - igraph
+  - leidenalg
+  - matplotlib
+  - matplotlib-venn
+  - natsort
+  - numba
+  - numpy
+  - pandas
+  - pip
+  - python=3.8
+  - scikit-learn
+  - scipy
+  - seaborn
+  - statsmodels
+  - tqdm
+  - umap-learn
+  - jupyterlab
+  - anndata
+  - scanpy
+  - pip:
+    - annoy
